@@ -1,0 +1,31 @@
+.title {
+    color: green;
+}
+
+.img {
+  width: 300px;
+  height: 400px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* container height */
+}
+
+img {
+  width: 20%; /* image width */
+  height: auto; /* maintain aspect ratio */
+  margin: 5px; /* gap between images */
+  border: 1px solid black; /* border */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 100px; /* 요소 간 간격 */
+}
+
